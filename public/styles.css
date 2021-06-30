@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.mynav {
+    background-color: #08192b;
+}
+
+.mybrand {
+    color: white;
+
+}
+
+.mybrand:hover {
+    text-decoration: underline;
+    color: #5a6ac0;
+
+}
+
+.mycontact {
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.main {
+    height: 40vh;
+    margin: 50px;
+    color: black;
+    padding: 20px;
+}
+
+.achivements {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.show1,
+.show2,
+.show3,
+.show4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.show1:hover {
+    color: #ff9700;
+}
+
+.show2:hover {
+    color: #5c6bbd;
+}
+
+.show3:hover {
+    color: #0376b5;
+}
+
+.show4:hover {
+    color: #ff9700;
+}
+
+.my_div {
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my_div2 {
+    background-color: #ffc702;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.my_div3 {
+    background-color: #c6b9ff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fbfcfe;
+    border-radius: 10px;
+    border: 1px solid #77479c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 400ms 0ms, z-index 0ms 400ms;
+
+
+}
+
+.icons:hover {
+
+    transform: scale(1.1);
+    transition: transform 400ms 0ms, z-index 0ms 0ms;
+    box-shadow: 0 0 10px black;
+}
+
+.my_form {
+    padding: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        margin: 25px;
+        padding: 10px;
+    }
+
+    .achivements {
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .show1 {
+        padding: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .main {
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .achivements {
+        padding: 5px;
+        margin-top: 30px;
+
+    }
+
+
+    .show1 {
+        display: none;
+    }
+
+    .show2,
+    .show3,
+    .show4 {
+        margin: 1px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .main {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .achivements {
+        padding: 0px;
+        margin-top: 10px;
+
+    }
+
+    .show1 {
+        display: none;
+    }
+
+    .show2,
+    .show3,
+    .show4 {
+        margin: 1px;
+    }
+
+}
